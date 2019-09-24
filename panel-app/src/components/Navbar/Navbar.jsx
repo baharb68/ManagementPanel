@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import './Navbar.css'
 import bell from '../img/bell.png'
-
+import logout from '../img/logout.png'
 import mail from '../img/mail-black-envelope-symbol.png'
 import menu from '../img/menu.png'
 import Icon from './Icon'
+import user from '../img/user.png'
+import Button from './Button'
 export default class Navbar extends Component {
     constructor(props){
         super(props);
@@ -25,11 +27,8 @@ export default class Navbar extends Component {
                            <img src={menu} alt=""/>
                         </button>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <button class="dropdown-item d-flex align-items-center py-2 text-right" type="button">
-                                <img src={this.props.profileIcon} alt=""/>
-                                <h6 className="pr-2">{this.props.profileName}</h6>
-                            </button>
-                            <button class="dropdown-item text-right py-2 font-weight-bold" type="button">خروج </button>
+                            <Button dropdowntext="بهاره باقری" dropdownIcon={user} />
+                            <Button dropdowntext="خروج" dropdownIcon={logout} />
                         </div>
                     </div>
                 </nav>
