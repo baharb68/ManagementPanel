@@ -1,0 +1,25 @@
+
+.sidebar h3{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.sidebar h4{
+    font-size: 0.8rem;
+    color: #bebcbc;
+}
+.sidebar a{
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+/* 
+.sidebar ul > li:hover{
+    background:linear-gradient(60deg,#fff,rgb(235, 235, 236));
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+} */
+.sidebar ul > li:hover a{
+    color: #e08a3d;
+}
+.icon{
+    width: 15px !important;
+}

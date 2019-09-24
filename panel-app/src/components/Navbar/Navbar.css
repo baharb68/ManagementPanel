@@ -1,0 +1,10 @@
+.navbar-brand{
+    background-color: #ffffff;
+}
+.part2 img , .part3  img{
+    width: 20px;
+}
+.part2 .badge{
+    top: -40%;
+    right: 100%;
+}

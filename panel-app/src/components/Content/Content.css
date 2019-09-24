@@ -1,0 +1,21 @@
+.user-panel{
+    background-color: #69b827 !important;
+}
+.panel > div {
+    background-color: rgba(255, 255, 255,0.2) !important;
+}
+.panel > div > a {
+    font-size: 0.8rem;
+}
+.panel > img{
+    width: 40px;
+}
+.task-panel{
+    background-color: #7627b8;
+}
+.mail-panel{
+    background-color: #f5a947;
+}
+.shop-panel{
+    background-color: #0f62c8;
+}
