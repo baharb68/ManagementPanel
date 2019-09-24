@@ -4,16 +4,13 @@
 .navbar-brand{
     background-color: #ffffff;
 }
-.part2 img , .part3  img{
-    width: 20px;
-}
-.part2 .badge{
+.navbar .badge{
     top: -40%;
     right: 100%;
 }
-.navbar button img{
+.navbar img{
     width:20px;
 }
-button , button > h6{
+button , button > h6 , .navbar .badge{
     font-size: 0.6rem;
 }

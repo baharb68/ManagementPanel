@@ -1,14 +1,23 @@
-.user-panel{
-    background-color: #69b827 !important;
+.panel {
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
 }
-.panel > div {
+/* .panel .col-5{
+    background-color: #6ccac9 !important;
+} */
+
+/* .panel > .col-7 > div {
     background-color: rgba(255, 255, 255,0.2) !important;
-}
-.panel > div > a {
+} */
+/* .panel > .col-7 > div > a {
     font-size: 0.8rem;
-}
-.panel > img{
+} */
+.panel .col-5 > img{
     width: 40px;
+}
+.panel .col-7{
+    color: #c6cad5;
 }
 .task-panel{
     background-color: #7627b8;

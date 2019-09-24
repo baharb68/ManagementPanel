@@ -14,7 +14,7 @@ export default class Main extends Component {
                         <Sidebar />
                     </div>
                 </div>
-                <div className="col-12 col-md-10 pt-5 px-2">
+                <div className="col-12 col-md-10 pt-3 px-2">
                     <Content />
                     <Diagram />
                 </div>
