@@ -1,0 +1,17 @@
+
+.nav-item a{
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+
+.nav-item:hover{
+    background:linear-gradient(60deg,transparent,rgb(100, 100, 100));
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nav-item:hover a{
+    color: #e08a3d;
+}
+.nav-item img{
+    width: 25px !important;
+}
