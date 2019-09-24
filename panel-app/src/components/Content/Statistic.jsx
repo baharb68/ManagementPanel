@@ -12,7 +12,7 @@ export default class Statistic extends Component {
                         <img src={this.props.color} alt="" className="w-100"/>
                         <img src={this.props.sIcon} alt="" className="position-absolute"/>
                     </div>
-                    <div className="col-7 bg-white p-0 py-1 d-flex flex-column justify-content-center">
+                    <div className="col-7 bg-white p-0 d-flex flex-column justify-content-center">
                         <h3 className="m-0 font-weight-normal">{this.props.quantity}</h3>
                         <h6 className="m-0 font-weight-normal">{this.props.content}</h6>
                     </div>

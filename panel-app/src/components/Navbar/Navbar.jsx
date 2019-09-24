@@ -15,7 +15,7 @@ export default class Navbar extends Component {
         return (
             <div>
                  <nav className="navbar navbar-expand-lg d-flex flex-wrap navbar-light bg-white p-0 b-shadow py-2">
-                     <div className="part1 col-12 col-md-2 w-100 align-items-center text-right">
+                     <div className="part1 col-2 w-100 align-items-center text-right">
                         <a className="navbar-brand font-weight-bold m-0" href="#">{this.props.logo}</a>
                     </div>
                     <div className="part2 col d-flex justify-content-end pt-4 pt-md-0">

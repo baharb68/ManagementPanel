@@ -10,7 +10,7 @@ import Main from '../src/components/Main/Main'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App fixed-top fixed-bottom">
         <Navbar logo="پنل مدیریت" />
         <Main />
     </div>
