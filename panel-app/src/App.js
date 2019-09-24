@@ -11,7 +11,7 @@ import Main from '../src/components/Main/Main'
 function App() {
   return (
     <div className="App">
-        <Navbar />
+        <Navbar logo="پنل مدیریت" />
         <Main />
     </div>
   );

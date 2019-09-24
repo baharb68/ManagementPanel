@@ -1,3 +1,6 @@
+.b-shadow{
+    box-shadow:0px 5px 10px #dfe0e0;
+}
 .navbar-brand{
     background-color: #ffffff;
 }
