@@ -10,11 +10,9 @@ export default class Main extends Component {
         return (
             <div className="d-flex flex-row">
                 <div className=" col-md-2 d-none d-md-block p-0 bg-dark">
-                    <div className=" side">
-                        <Sidebar />
-                    </div>
+                    <Sidebar />
                 </div>
-                <div className="col-12 col-md-10 pt-3 px-2">
+                <div className="col-12 col-md-10 py-3 px-2">
                     <Content />
                     <Diagram />
                 </div>

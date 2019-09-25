@@ -14,7 +14,6 @@ class Sidebar extends Component {
     render() { 
         return (
             <div className="sidebar d-flex flex-column align-items-start pt-3 h-100 ">
-                
                 <div className="d-flex flex-column align-items-start w-100">
                     <ul className="nav  align-items-start p-0 w-100 ">
                         <Li icon={home} link="داشبورد" />
