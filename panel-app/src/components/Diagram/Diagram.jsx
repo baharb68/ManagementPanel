@@ -4,13 +4,14 @@ import './Diagram.css'
 export default class  extends Component {
     render() {
         return (
-            <div className="diagram d-flex bg-white mt-3 py-5 px-3 ">
-                <div className="col-12 col-md-8 d-flex flex-column justify-content-center">
-                    <h3 className="text-right pb-1 w-100">گزارش ماهانه</h3>
-                    <img src={diagram} alt="" className="w-100"/>
+            <div className="diagram d-flex bg-white mt-3">
+                <div className="col-12 col-md-8 d-flex flex-column justify-content-center p-0">
+                    <h3 className="text-right pb-1 w-100 p-2 pr-4 mb-3">گزارش ماهانه</h3>
+                    <img src={diagram} alt="" className="w-100 px-3"/>
                 </div>
-                <div className="col-12 col-md-4 d-flex align-items-center">
-                    <form>
+                <div className="col-12 col-md-4 d-flex flex-column px-0">
+                    <h3 className="text-right pb-1 w-100 p-2 pr-4 mb-3">عضویت</h3>
+                    <form className="px-2">
                         <div className="form-row">
                             <div className="form-group col-md-6">
                             {/* <label for="inputEmail4">ایمیل</label> */}
@@ -38,7 +39,7 @@ export default class  extends Component {
                             </select>
                             </div>
                         </div>
-                        <button type="submit" className="btn btn-success mt-2">ورود</button>
+                        <button type="submit" className="btn btn-secondary mt-2">ورود</button>
                     </form>
                 </div>
             </div>
